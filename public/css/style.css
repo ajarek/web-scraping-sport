@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+
+
+}
+.nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color:darkblue
+}
+.logo{
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/00/da/d1/00dad1cd-f2d6-6467-7589-c99d805ebe7a/source/256x256bb.jpg');
+    background-size: cover;
+}
+.item{
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    margin-bottom: 20px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.item:hover{
+   
+    background-color: aliceblue;
+    
+}
