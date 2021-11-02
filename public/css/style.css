@@ -1,33 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: hsl(42, 100%, 70%);
     min-height: 100vh;
-   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
-
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
 
 }
 .nav{
     width: 100%;
-    position: relative;
     display: flex;
-    justify-content: center;
-    color:darkblue
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    background:hsl(105, 55%, 96%);
+    margin-bottom: 15px;
+}
+.wrap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .logo{
-    position: absolute;
-    left: 0;
-    border-radius: 5px;
-    width: 80px;
-    height: 80px;
-    background-image: url('https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/00/da/d1/00dad1cd-f2d6-6467-7589-c99d805ebe7a/source/256x256bb.jpg');
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-image: url('https://ocdn.eu/ucs/static/programtv/57db03739d60668e82beb1bceb6d7b39/onet_logo.png');
     background-size: cover;
+    margin:0 15px;
 }
+.textLogo{
+    text-align: center;
+}
+.input{
+    margin:0 15px;
+}
+.input input{
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 5px;
+    pa
+}
+
+
 .item{
     box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
-    margin-bottom: 20px;
+    background-color: aliceblue;
+    margin-bottom: 15px;
     padding: 5px;
 }
 a{
@@ -37,6 +60,6 @@ a{
 }
 .item:hover{
    
-    background-color: aliceblue;
+    background-color: hsl(153, 100%, 82%);
     
 }

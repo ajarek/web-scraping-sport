@@ -10,18 +10,25 @@
 
 <body>
     <div class="nav">
-        <div class="logo"></div>
-        <div>
-            <h1>Najnowsze Wiadomości z Kraju i ze Świata</h1>
+        <div class="wrap">
+            <div class="logo"></div>
+            <div class="textLogo">
+                <h1>onet Sport w TV</h1>
+            </div>
         </div>
+        <div class="input"><input type="search" name="" id="in" placeholder="🔎  "></div>
+
+
     </div>
-<div class="container">
-    <%resources.forEach(resource=>{%>
-    <div class="item">
-        <a target="_blank" href=<%=resource.titleURL%>><%=resource.title.replace( "Przejdź do","" )%></a>
+    <div class="container">
+        <%resources.forEach(resource=>{%>
+        <div class="item">
+            <a target="_blank"
+                href=<%='https://programtv.onet.pl'+resource.titleURL%>><%=resource.time%><%=resource.title%></a>
+        </div>
+        <%})%>
     </div>
-    <%})%>
-</div>
+   <script src="js/scrypt.js"></script>
 </body>
 
 </html>
